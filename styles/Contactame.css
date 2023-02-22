@@ -1,0 +1,247 @@
+body {
+  color: rgb(91, 63, 28);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+
+header {
+  position: relative;
+  margin: 0px 0 -20px 0;
+  font-size: 1.3em;
+  text-align: center;
+  letter-spacing: 7px;
+
+}
+
+
+.a {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: rrgb(91, 63, 28);
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: rgb(91, 63, 28);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:focus::placeholder,
+textarea:focus:placeholder {
+  color: rgb(91, 63, 28);
+}
+
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+  color: rrgb(91, 63, 28);
+}
+
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+  color: rgb(91, 63, 28);
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
+  color: rgb(91, 63, 28);
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: rgb(91, 63, 28);
+
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: rgb(91, 63, 28);
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover:focus:-ms-placeholder {
+  color: rgb(91, 63, 28);
+}
+
+
+#form {
+  position: relative;
+  width: 72%;
+  margin: 90px auto 100px auto;
+  background-attachment: fixed;
+  
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: rgb(91, 63, 28);
+
+  border: solid 1px rgb(91, 63, 28);
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #604b3e6e;
+  color: rgb(91, 63, 28);
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: rgb(91, 63, 28);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px rgb(91, 63, 28);
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #5a453953;
+  color: rgb(91, 63, 28);
+}
+
+#submit {
+  width: 503px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: rgb(91, 63, 28);
+
+  outline: none;
+  cursor: pointer;
+
+  border: solid 1px rgb(91, 63, 28);
+  border-top: none;
+}
+
+#submit:hover {
+  color: rgb(91, 63, 28);
+}
+
+
+.reser {
+  font-size: 15px;
+  color:   rgb(91, 63, 28);
+  margin: bottom 0px; ;
+ 
+}
+
+@media screen and (max-width: 670px) {
+
+ 
+#form {
+  margin-left: -129px;
+  margin-right: -129px;
+  background-attachment: fixed;
+  width: -200px;
+  height: -200px;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 40px;
+  padding: 0px 1px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: rgb(91, 63, 28);
+
+  border: solid 1px rgb(91, 63, 28);
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+ 
+}
+.footer {
+  font-size: 15px;
+  color:   rgb(91, 63, 28);
+  
+}
+}
+
+
+
